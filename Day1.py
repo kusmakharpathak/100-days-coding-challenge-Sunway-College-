@@ -1,3 +1,9 @@
+"""
+ Author :   Kusmakhar Pathak
+ Created:   27 July 2020
+ (c) Copyright by Kusmakhar Pathak.
+ """
+
 # WPA Accepting the challenge from  Jagriti Srivastava in Different Methods ways.
 
 # accepting challenge using class and Objects
