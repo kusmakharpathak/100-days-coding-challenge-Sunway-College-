@@ -19,7 +19,7 @@ print(string_2)
 merg_2_string = string_1+string_2
 print(merg_2_string)
 
-# picking only day feom string 1
+# picking only day from string_1
 print(string_1[:3])
 
 # picking works from string_2 negative indexing
