@@ -1,3 +1,9 @@
+"""
+ Author :   Kusmakhar Pathak
+ Created:   28 July 2020
+ (c) Copyright by Kusmakhar Pathak.
+ """
+
 # Challenge related to string
 
 string_1 = "Day 2 challenge related to String."
