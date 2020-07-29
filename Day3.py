@@ -1,3 +1,9 @@
+"""
+ Author :   Kusmakhar Pathak
+ Created:   29 July 2020
+ (c) Copyright by Kusmakhar Pathak.
+ """
+
 # Input and it's Type
 
 # String Input
