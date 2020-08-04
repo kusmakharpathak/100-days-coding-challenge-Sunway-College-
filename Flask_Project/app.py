@@ -9,6 +9,7 @@ Author :   Kusmakhar Pathak
     This Exercises will go for 3 weeks to build a complete restful API and blogging site.
     In this section I will demonstrate you to how to create WTForms, templates rendering, Data base connection,
     form validation and static file rendering like images, css, js. 
+    Templates and form rendering
 """
 
 from flask import Flask, render_template, request
