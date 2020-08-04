@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a99c6dd0-5f8d-495e-be6e-32fd842b89ba" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Flask_Project/templates/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Flask_Project/Day8.py" beforeDir="false" afterPath="$PROJECT_DIR$/Flask_Project/Day8.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,6 +15,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Python Script" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -28,12 +31,18 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/template" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\CCC 100 days Challenge\template" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\CCC 100 days Challenge\Flask_Project" />
     </key>
@@ -128,6 +137,9 @@
       <module name="CCC 100 days Challenge" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -147,6 +159,9 @@
       <module name="CCC 100 days Challenge" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Flask_Project" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -208,7 +223,9 @@
       <workItem from="1596260183683" duration="2814000" />
       <workItem from="1596339102891" duration="2984000" />
       <workItem from="1596375260296" duration="1244000" />
-      <workItem from="1596460301718" duration="2690000" />
+      <workItem from="1596460301718" duration="3607000" />
+      <workItem from="1596549197871" duration="284000" />
+      <workItem from="1596549690280" duration="1885000" />
     </task>
     <servers />
   </component>
@@ -244,9 +261,14 @@
     </state>
     <state width="1877" height="275" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1440.860@0.0.1920.1040" timestamp="1596168480935" />
     <state width="1860" height="209" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1596380097076" />
-    <state x="143" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1596340140614">
+    <state x="807" y="427" key="VCS.ChangelistChooser" timestamp="1596549237160">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state x="807" y="427" key="VCS.ChangelistChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1596549237160" />
+    <state x="143" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1596549855966">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="143" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/1920.0.1440.860@0.0.1920.1040" timestamp="1596549855966" />
     <state x="143" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1596340140614" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
