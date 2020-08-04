@@ -1,6 +1,5 @@
 """
 Author :   Kusmakhar Pathak
-Created:   3 August 2020
 (c) Copyright by Kusmakhar Pathak.
 """
 # Web programming using Python flask
