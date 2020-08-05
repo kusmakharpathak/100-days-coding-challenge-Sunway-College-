@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a99c6dd0-5f8d-495e-be6e-32fd842b89ba" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Flask_Project/data.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Flask_Project/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/Flask_Project/app.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Flask_Project/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Flask_Project/templates/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -12,8 +16,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Python Script" />
         <option value="HTML File" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -36,6 +40,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/template" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -46,28 +51,6 @@
     </key>
   </component>
   <component name="RunManager" selected="Python.app (1)">
-    <configuration name="Day6" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="CCC 100 days Challenge" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Day6.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="Day7" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="CCC 100 days Challenge" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -157,6 +140,9 @@
       <module name="CCC 100 days Challenge" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Flask_Project" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -194,13 +180,32 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="data" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="CCC 100 days Challenge" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Flask_Project" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Flask_Project/data.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Python.app (1)" />
+        <item itemvalue="Python.data" />
         <item itemvalue="Python.app" />
         <item itemvalue="Python.Day9" />
         <item itemvalue="Python.app" />
-        <item itemvalue="Python.Day7" />
       </list>
     </recent_temporary>
   </component>
@@ -220,7 +225,8 @@
       <workItem from="1596375260296" duration="1244000" />
       <workItem from="1596460301718" duration="3607000" />
       <workItem from="1596549197871" duration="284000" />
-      <workItem from="1596549690280" duration="2250000" />
+      <workItem from="1596549690280" duration="3057000" />
+      <workItem from="1596636199471" duration="2645000" />
     </task>
     <servers />
   </component>
@@ -256,14 +262,26 @@
     </state>
     <state width="1877" height="275" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1440.860@0.0.1920.1040" timestamp="1596168480935" />
     <state width="1860" height="209" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1596380097076" />
+    <state x="461" y="165" key="SettingsEditor" timestamp="1596638807476">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="461" y="165" key="SettingsEditor/0.0.1920.1040/1920.0.1440.860@0.0.1920.1040" timestamp="1596638807476" />
     <state x="807" y="427" key="VCS.ChangelistChooser" timestamp="1596549237160">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="807" y="427" key="VCS.ChangelistChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1596549237160" />
-    <state x="143" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1596549855966">
+    <state x="1459" y="130" width="1456" height="707" key="dock-window-1" timestamp="1596638190912">
+      <screen x="1920" y="0" width="1440" height="860" />
+    </state>
+    <state x="1459" y="130" width="1456" height="707" key="dock-window-1/0.0.1920.1040/1920.0.1440.860@0.0.1920.1040" timestamp="1596638190912" />
+    <state x="389" y="136" width="1456" height="707" key="dock-window-2" timestamp="1596638514981">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="143" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/1920.0.1440.860@0.0.1920.1040" timestamp="1596549855966" />
+    <state x="389" y="136" width="1456" height="707" key="dock-window-2/0.0.1920.1040/1920.0.1440.860@0.0.1920.1040" timestamp="1596638514981" />
+    <state x="143" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1596637997379">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="143" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/1920.0.1440.860@0.0.1920.1040" timestamp="1596637997379" />
     <state x="143" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1596340140614" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">

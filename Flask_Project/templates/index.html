@@ -1,40 +1,49 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 
 <head>
-    <meta charset="UTF-8">
-    <title>Flask App</title>
+  <title>Flask App Read Json Data</title>
+    <style>
+        table,
+        th,
+        td {
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+    </style>
 </head>
 
 <body>
-    <form method="post">
-        <p>
-            <label>
-            First Name
-            <input type="text" name="f_name">
-    <p>
-        <label>
-            Last Name
-            <input type="text" name="l_name">
-        </label>
-        </p>
-        <p>
-            <label>
-            Address
-            <input type="text" name="address">
-        </label>
-        </p>
-        <p>
-            <label>
-            Phone Number
-            <input type="tel" name="p_number">
-        </label>
-        </p>
-        <p>
-            Address
-            <input type="submit" value="submit">
-        </p>
-    </form>
+    <h2>Data load from json file</h2>
+    <table style="width:100%">
+        <tr>
+            <th>Id</th>
+            <th>First Name</th>
+            <th>Last Name</th>
+            <th>Age</th>
+            <th>Eye Color</th>
+            <th>Email</th>
+            <th>Phone</th>
+            <th>Address</th>
+            <th>About</th>
+            <th>Company Name</th>
+            <th>Reg. Date</th>
+        </tr>
+        {% for data in data %}
+        <tr>
+            <td>{{data['_id']}}</td>
+            <td>{{data['name']['first']}}</td>
+            <td>{{data['name']['last']}}</td>
+            <td>{{data['age']}}</td>
+            <td>{{data['eyeColor']}}</td>
+            <td>{{data['email']}}</td>
+            <td>{{data['phone']}}</td>
+            <td>{{data['address']}}</td>
+            <td>{{data['about']}}</td>
+            <td>{{data['company']}}</td>
+            <td>{{data['registered']}}</td>
+        </tr>
+        {% endfor %}
+    </table>
 </body>
-
 </html>
